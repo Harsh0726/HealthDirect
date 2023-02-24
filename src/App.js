@@ -4,16 +4,21 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Home from './screens/Home';
 import AccountType from './screens/AccountType';
+import MainHome from './screens/MainHome';
+
+// font awesom icon
+// in App.js
 
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='AccountType'>
+      <Stack.Navigator initialRouteName='MainHome'>
         <Stack.Screen
+        options={{headerShown:false}}
         name='Choose Profile Type'
-        component={AccountType}
+        component={MainHome}
         />
       </Stack.Navigator>
     </NavigationContainer>
