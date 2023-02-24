@@ -295,55 +295,7 @@ const styles = StyleSheet.create({
         height:310,
         backgroundColor:'#D9D9D9'
     },
-    txt: {
-        position: 'absolute',
-        width: 310,
-        height: 31,
-        top: 50,
-        fontFamily: '',
-        fontStyle: 'normal',
-        fontWeight: "500",
-        fontSize: 13,
-        lineHeight: 16,
-        display: 'flex',
-        alignItems: 'center',
-        textAlign : 'justify',
-        color: 'rgba(0, 0, 0, 0.68)',
-    },
-    btn1: {
-        position: 'absolute',
-        width: 300,
-        height: 55,
-        top: 200,
-        backgroundColor: '#7ADCC3'
-    },
-    btn2: {
-        position: 'absolute',
-        width: 300,
-        height: 55,
-        top: 300,
-        backgroundColor: '#7ADCC3'
-    },
-    iconimage: {
-        top: 10,
-        left: 10,
-    },
-    btn3: {      
-        position: 'absolute',
-        width: 115,
-        height: 46,
-        left: 0,
-        top: 400,
-        left:30,
-        backgroundColor: '#006B87',
-        borderRadius: 10,
-        padding: 10,
-        
-    },
-    help: {
-        color: '#F2EFEF',
-        top:520,        
-    }
+
 });
 
   export default MainHome;
